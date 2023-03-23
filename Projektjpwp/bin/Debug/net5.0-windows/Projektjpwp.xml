@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Projektjpwp</name>
+    </assembly>
+    <members>
+        <member name="M:Projektjpwp.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do 1 poziomu
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Wyjście z gry
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do wyboru poziomu
+            </summary>
+        </member>
+        <member name="F:Projektjpwp.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Projektjpwp.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom1.losowanie(System.Int32,System.Windows.Forms.Label[])">
+            <summary>
+            Funkcja generująca losowe wspołrzedne literom
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom1.move(System.Windows.Forms.Label)">
+            <summary>
+            funkcja do poruszania literami za pomocą myszki
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom1.time">
+            <summary>
+            funkcja minutnika odliczającego w dół
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom1.sprawdz(System.Windows.Forms.Label)">
+            <summary>
+            funkcja sprawdzania poprawności 
+            </summary>
+        </member>
+        <member name="F:Projektjpwp.Poziom1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Projektjpwp.Poziom1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Projektjpwp.Poziom2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Projektjpwp.Poziom2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Projektjpwp.Poziom3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Projektjpwp.Poziom3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Projektjpwp.Poziom4.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziom4.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Projektjpwp.Poziom4.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do 1 poziomu
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do 2 poziomu
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do menu
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Wyjście z gry
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do 3 poziomu
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.button6_Click(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do 4 poziomu
+            </summary>
+        </member>
+        <member name="F:Projektjpwp.Poziomy.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Projektjpwp.Poziomy.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Projektjpwp.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Projektjpwp.Properties.Resources">
+            <summary>
+              Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.ResourceManager">
+            <summary>
+            Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.Culture">
+            <summary>
+              Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+              przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.budka">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.glow_background_light_lines_bright_46562_1280x720">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.ios_7_galaxy_wallpaper_wallpaper_1280x720_45">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.menu">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.poziom1">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.poziom2">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.poziom3">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.poziom4">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.poziomy">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect10">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect10_6_3">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect10_61">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3_2">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3_2_8_9">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3_2_8_9_8">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3_2_8_9_8_8">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3_2_8_9_8_8_9">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_3_21">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect168_31">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect24">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Projektjpwp.Properties.Resources.rect26">
+            <summary>
+              Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
